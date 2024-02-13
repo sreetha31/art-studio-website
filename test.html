@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Studio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            color: #333;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery-img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Art Studio</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our vibrant world of creativity at Art Studio! Nestled in the heart of [Your City], our studio is more than just a space—it's a sanctuary for artistic souls to flourish and connect. With brushes poised and palettes filled with every hue imaginable, we breathe life into blank canvases, transforming them into windows to the imagination. Here, passion is our paint, and expression knows no bounds. From the whimsical strokes of abstract wonders to the meticulous details of realism, our diverse collective of artists brings forth a kaleidoscope of emotions, inviting you to immerse yourself in the beauty of boundless imagination. Whether you're a seasoned art enthusiast or a curious soul eager to explore, our doors are open, and our brushes are ready to create magic with you. Join us on this journey where every stroke tells a story, and every masterpiece reflects the essence of the human spirit. Welcome to Art Studio—where art becomes life, and dreams take flight.
+
+        </p>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img class="gallery-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYpxZZQKH4jJ19jz5M98ZuEksEnXD5hPXraP5MU3v354B405g45Xsesk_fSw-lo10CRmE&usqp=CAU" alt="Artwork 1">
+            <img class="gallery-img" src="https://static.vecteezy.com/system/resources/previews/024/009/267/large_2x/abstract-human-oil-paintings-for-wall-decor-modern-art-women-modern-art-gallery-ai-generative-colorful-design-art-free-photo.jpg" alt="Artwork 2">
+            <img class="gallery-img" src="https://static.vecteezy.com/system/resources/previews/024/009/279/large_2x/abstract-human-oil-paintings-for-wall-decor-modern-art-women-modern-art-gallery-ai-generative-colorful-design-art-free-photo.jpg" alt="Artwork 3">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to contact us for inquiries, commissions, or to schedule a visit to our studio.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Art Studio</p>
+    </footer>
+</body>
+</html>
